@@ -1,10 +1,12 @@
 # 12homework_Supervised_Learning
 
 * Explain the purpose of the analysis.
+  
 The primary objective of our Supervised Machine Learning Analysis is to train a predictive model using labeled data and subsequently assess its performance on a separate test dataset. Through this analysis, we aim to evaluate the effectiveness of our model in making accurate predictions on unseen data, leveraging metrics such as accuracy, precision, and recall. The ultimate goal is to inform decision-making processes based on the model's ability to generalize well to real-world scenarios, providing insights into its reliability and predictive capabilities.
 
 * Explain what financial information the data was on, and what you needed to predict.
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
+  
 Supervised Machine Learning:
 lending_data.csv file containes feature like: 
     'loan_size',
@@ -35,6 +37,7 @@ Third Step: Model-Fit-Predict
 In this phase, I defined the logistic regression model algorithm, fitting the model with training features and corresponding targets. Subsequently, I leveraged the trained model to make predictions on the testing features. Once the Model-Fit-Predict sequence was completed, I conducted a thorough comparison of the accuracy of predictions against our testing targets.
 
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+  
 In the original dataset, I observed a substantial class imbalance, with 96.77% of the loans categorized as healthy loans and only 3.23% classified as high-risk loans. To mitigate the impact of this imbalance during machine learning model training, I utilized the RandomOverSampler method. By doing so, I ensure that the machine learning model does not disproportionately favor the majority class during training, preventing potential biases and allowing for more effective learning from both classes
 
 ## Results
