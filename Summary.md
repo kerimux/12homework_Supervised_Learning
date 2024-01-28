@@ -24,6 +24,7 @@ Utilizing the value_counts() method on the target variable (y) to summarize the 
 
 
 * Describe the stages of the machine learning process you went through as part of this analysis.
+
 First Step: Data Preparation.
 I initiated the machine learning process by separating our dataset into feature and target variables. The target variable(y) was defined as the entirety of the 'loan_status' column, (y=lending_df['loan_status']). For the feature variable(X) I excluded the target variable by removing the 'loan_status' column, (X=lending_df.drop(['loan_status'], axis=1). 
 
