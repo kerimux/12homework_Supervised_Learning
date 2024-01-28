@@ -9,15 +9,24 @@ The primary objective of our Supervised Machine Learning Analysis is to train a 
   
 Supervised Machine Learning:
 lending_data.csv file containes feature like: 
+
     'loan_size',
+    
     'interest_rate',
+    
     'borrower_income',
+    
     'debt_to_income', 
+    
     'num_of_accounts',
+    
     'derogatory_marks',
+    
     'total_debt'. 
+
     
 And the target: 
+
     'loan_status'. 
     
 The target variable serves as a label, and the goal is to predict this target using the provided features.
@@ -47,27 +56,41 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   * Description of Model 1 Accuracy, Precision, and Recall scores.
   
 Logistic regression model predicts on original dateset is very high accuracy - 0.99.
+
 Healthy loan('0'): precision - 1.00 and recall - 0.99
+
 High-risk loan('1'): precision - 0.85 and recall - 0.91
 
 Confusion Matrix summary: 
+
 True Negative: 18663 (96.15%), 
+
 False Positive: 102 (0.53%), 
+
 False Negative: 56 (0.29%), 
+
 True Positive: 563 (2.92%).
+
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
   
 Logistic regression model, fit with oversampled data predicts very high accuracy - 0.99.
+
 Healthy loan('0'): precision - 1.00 and recall - 0.99
+
 High-risk loan('1'): precision - 0.84 and recall - 0.99
+
 
 Confusion Matrix summary: 
 True Negative: 18649 (95.56%), 
-False Positive: 116 (0.60%), 
+
+False Positive: 116 (0.60%),
+
 False Negative: 4 (0.02%), 
+
 True Positive: 615 (3.82%).
+
 
 ## Summary
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
