@@ -62,13 +62,9 @@ Healthy loan('0'): precision - 1.00 and recall - 0.99
 High-risk loan('1'): precision - 0.85 and recall - 0.91
 
 Confusion Matrix summary: 
-
 True Negative: 18663 (96.15%), 
-
 False Positive: 102 (0.53%), 
-
 False Negative: 56 (0.29%), 
-
 True Positive: 563 (2.92%).
 
 
